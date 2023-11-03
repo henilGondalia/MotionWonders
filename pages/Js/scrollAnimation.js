@@ -84,40 +84,40 @@ t4
         marginTop: "20vh",
     }, 'a')
 
-// var t5 = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: "#main-i",
-//         // markers:true,
-//         start: "38% 50%",
-//         end: "100% 50%",
-//         scrub: 2,
-//         pin: true
-//     }
-// });
-// t5
-//     .to("#card-one", {
-//         top: "35%",
-//     }, 'a')
-//     .to("#card-two", {
-//         top: "130%"
-//     }, 'a')
-//     .to("#card-two", {
-//         top: "42%"
-//     }, 'b')
-//     .to("#card-one", {
-//         width: "65%",
-//         height: "65vh"
-//     }, 'b')
-//     .to("#card-three", {
-//         top: "130%"
-//     }, 'b')
-//     .to("#card-three", {
-//         top: "50%"
-//     }, 'c')
-//     .to("#card-two", {
-//         width: "70%",
-//         height: "70vh"
-//     }, 'c')
+var t5 = gsap.timeline({
+    scrollTrigger: {
+        trigger: "#main-i",
+        // markers:true,
+        start: "38% 50%",
+        end: "100% 50%",
+        scrub: 2,
+        pin: true
+    }
+});
+t5
+    .to("#card-one", {
+        top: "35%",
+    }, 'a')
+    .to("#card-two", {
+        top: "130%"
+    }, 'a')
+    .to("#card-two", {
+        top: "42%"
+    }, 'b')
+    .to("#card-one", {
+        width: "65%",
+        height: "65vh"
+    }, 'b')
+    .to("#card-three", {
+        top: "130%"
+    }, 'b')
+    .to("#card-three", {
+        top: "50%"
+    }, 'c')
+    .to("#card-two", {
+        width: "70%",
+        height: "70vh"
+    }, 'c')
 
 // window.addEventListener("mousemove", function (chahcha) {
 //     document.querySelector("#slidephoto").style.top = `${chahcha.clientY}px`
